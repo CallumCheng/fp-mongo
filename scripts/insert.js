@@ -7,3 +7,6 @@ db.dogs.insertMany([
     { name: "Zola", breed: "golden retriever", ownerName: "Beth", age: 15 },
     { name: "Snip", breed: "greyhound", age: 3 }
 ]);
+
+db.dogs.insertOne({name:"Lyla", breed: "golden retriever", ownerName: "Callum", age: 2});
+

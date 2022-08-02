@@ -8,3 +8,7 @@ function numberOfDogsByBreed(b){
 function findOldestDog(){
     return db.dogs.find().sort({ "age" : -1 }).limit(1);
 }
+
+function findYoungestDog(){
+    return db.dogs.find().sort({ "age" : 1 }).limit(1);
+}
